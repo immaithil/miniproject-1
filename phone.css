@@ -1,0 +1,146 @@
+.navbar{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.navbar span{
+    position: relative;
+    top: -41px;
+    width: 10px;
+    left: 155px;
+}
+.navbar img{
+    position: absolute;
+    left: 25px;
+}
+.navbar ul{
+    margin-left: 50px;
+}
+.container h1{
+    font-size: 4rem;
+}
+.container h5{
+    font-size: 1rem;
+    margin-top: -65px;
+}
+.container h3{
+    font-size: 1rem;
+}
+.container::before{
+    width: 90vw;
+    height: 90vh;
+    left: 1vh;
+}
+/*skill section*/
+.container-2{
+    margin-top: 0px;
+    grid-template-columns: 1fr;
+    
+}
+.box-1 h1{
+    font-size: 1.5rem;
+    width: 100vh;
+    margin-top: 5px;
+}
+.box-1 p{
+    font-size: 0.8rem;
+    width: 78vw;
+}
+#item-1{
+    margin-top: 5px;
+}
+.item p{
+    width: 13rem;
+    padding-right: 10px;
+    padding-left: 25px;
+    display:none;
+}
+.java{
+    width: 25px;
+    height: 25px;
+}
+/*project section*/
+.projects{
+    margin-top: 5px;
+}
+.projects h1{
+    font-size: 1.5rem;
+}
+.container-3{
+    grid-template-columns: 1fr 1fr;
+}
+.web{
+    width: 35vw;
+}
+.project{
+    width: 38vw;
+    margin-bottom: 77px;
+    margin-right: 38px;
+}
+.project h3{
+    font-size: .8rem;
+}
+/*approach section*/
+.approach{
+    margin-top: 5px;
+}
+.approach h1{
+    font-size: 2rem;
+}
+.boxapp{
+    grid-template-columns: 1fr 1fr;
+}
+.appbox{
+    width: 35vw;
+}
+.appbox h2{
+    font-size: 1rem;
+}
+.appbox h5{
+    font-size: .5rem;
+}
+.appbox p{
+    font-size: .68rem;
+}
+/* social section*/
+.social-section h1{
+    font-size: 2rem;
+}
+/*contact section*/
+.contact-section{
+    margin-top: 5px;
+    padding-top: 0px;
+}
+.form{
+    width: 50vw;
+}
+#submit{
+    width: 25vw;
+}
+#copy{
+    font-size: 0.8rem;
+}
+/*activity*/
+.activity{
+    flex-direction: column;
+}
+.acti{
+    width:12rem;
+    
+}
+.hobby{
+    margin-top: 2rem;
+    width: 50vw;
+    /* border: 2px solid orangered; */
+    padding: 2rem;
+}
+.hobby h3{
+    display: block;
+    font-size: 1rem;
+    margin-left: 1rem;
+    margin-bottom: 0px;
+}
+.logo-social{
+    margin-left: 1rem;
+}
